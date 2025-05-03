@@ -28,7 +28,7 @@ describe("Go to cinema tests", () => {
   test("happy booking a vip seet", async () => {
     await clickElement(page, "a:nth-child(2)")
     await clickElement(page, "[data-seance-id='218']")
-    await clickElement(page, "span[class='buying-scheme__chair buying-scheme__chair_standart']")
+    await clickElement(page, "span[class='buying-scheme__chair buying-scheme__chair_vip']")
     await clickElement(page, ".acceptin-button")
     const actual = await getText(page, ".ticket__check-title");
     const expected = "Вы выбрали билеты:";
