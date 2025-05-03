@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --watchAll --detectOpenHandles",
+    "cucumber": "cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   "homepage": "https://github.com/Sad-Froggy/jsaqa7-05#readme",
   "description": "",
   "dependencies": {
+    "chai": "^5.2.0",
+    "cucumber": "^6.0.7",
     "jest": "^29.7.0",
     "jest-puppeteer": "^11.0.0",
     "puppeteer": "^24.7.2"
