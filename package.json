@@ -1,0 +1,24 @@
+{
+  "name": "jsaqa7-05",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sad-Froggy/jsaqa7-05.git"
+  },
+  "author": "Alexei Kovalev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sad-Froggy/jsaqa7-05/issues"
+  },
+  "homepage": "https://github.com/Sad-Froggy/jsaqa7-05#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^24.7.2"
+  }
+}
